@@ -1,0 +1,5 @@
+"Project9" folder: the multitasking solution here was the 'performSelector' method - Paul's tutorial shows it as a viable method, but I had problems with it (Xcode 11.5).
+ 
+"Project9a" folder: the multitasking solution here is 'DispatchQueue' - this method is perfectly viable, however it seems a little more tedious to work with. 
+
+I also did here the 3rd challenge from the 40th day - "Modify project 7 so that your filtering code takes place in the background" - 'submit()' now is executed on the background thread.
