@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16097" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Project37_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Please read the instructions on your phone before continuing." textAlignment="center" numberOfLines="0" id="Fd3-9n-ksa"/>
+                        <button width="1" alignment="center" title="I'm ready" id="jfS-h0-Vt9">
+                            <connections>
+                                <action selector="hideWelcomeText" destination="AgC-eL-Hgc" id="c40-Ql-liy"/>
+                            </connections>
+                        </button>
+                        <button width="1" height="1" alignment="center" verticalAlignment="center" hidden="YES" title="ALWAYS WIN MODE" id="f7r-t7-idc">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="toggleAlwaysWinMode" destination="AgC-eL-Hgc" id="aYq-Lc-oDC"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="alwaysWinButton" destination="f7r-t7-idc" id="TD9-pN-XGN"/>
+                        <outlet property="hideButton" destination="jfS-h0-Vt9" id="MJB-ZZ-Oa2"/>
+                        <outlet property="welcomeText" destination="Fd3-9n-ksa" id="182-fY-k8Q"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+    </scenes>
+</document>
