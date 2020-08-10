@@ -1,4 +1,4 @@
-This is a complete "100 Days of Swift" course, all challenges included.
+This is a complete "100 Days of Swift" course, all challenges included. You can also find here the last 9 projects from Paul Hudson's "Hacking With Swift".
 
 I strongly recommend that you use this ONLY WHEN you really struggle - some of those challenges took me more than 1 day of heavy thinking and I strongly encourage you to apply the same approach - it will profit soon enough, just take my words for it.
 
